@@ -1,0 +1,66 @@
+/* General styles*/
+body {
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.6;
+    background-color: rgb(57, 110, 156);
+    margin: 0;
+    padding: 0;
+ 
+}
+/*Styles for the header*/
+header {
+    background-color: rgb(121, 43, 108);
+    color: rgb(32, 98, 155);
+    padding: 20px 0;
+    text-align: center;
+}
+ 
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+nav ul {
+    list-style:none;
+    padding:0;
+}
+nav ul li{
+    display:inline;
+    margin:0 15px;
+    font-size:18px;
+}
+nav ul li:hover{
+    text-decoration:underline;
+    cursor:pointer;
+}
+/* main content */
+main{
+    padding:20px;
+    max-width:120px;
+    margin:0 auto;
+    background-color:#fff;
+    box-shadow:0 0 10px rgba(0,0,0,0,1);
+}
+main p,main ul,main ol{
+    margin-bottom:20px;
+}
+h2{
+    color:blue;
+}
+/* styles for images */
+figure{
+    text-align:center;
+    margin:20px 0;
+}
+figure img{
+    width:80%;
+    border-radius:20px;
+}
+figcaption{
+    font-style:italic;
+    color:green;
+}
+div.form-kontakty {
+    border-radius:5px;
+    background-color:pink;
+    padding:20px;
+}

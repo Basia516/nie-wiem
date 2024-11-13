@@ -1,0 +1,17 @@
+a {background-color:rgb(111, 65, 155);}
+
+p{color:blue}
+
+p.yellow{color:yellow}
+p.red{color:red}
+p.green{color:green}
+p.black{color:black}
+.style{
+    font size: 31px;
+    font-family:cursif, serif;
+    padding: 50px;
+    paddin-right:10px;
+
+}
+
+main{color:brown}
